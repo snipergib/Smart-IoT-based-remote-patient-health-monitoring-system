@@ -2,11 +2,10 @@ import serial
 import requests
 
 # Adafruit IO credentials
-ADAFRUIT_IO_KEY = 'aio_Wrop99xyiJkHDlYIXTi2eSo157d1'
-ADAFRUIT_IO_USERNAME = 'earnest_2004'
-
+ADAFRUIT_IO_KEY = "YOUR_ADAFRUIT_IO_KEY"  # Replace with your Adafruit IO key
+ADAFRUIT_IO_USERNAME = "YOUR_ADAFRUIT_IO_USERNAME"  # Replace with your Adafruit IO username
 # Define the feed key on Adafruit IO
-FEED_KEY = 'nothing-iot'
+FEED_KEY = "YOUR_FEED_KEY"  # Replace with your feed key
 
 # Initialize serial connection to Arduino
 ser = serial.Serial('/dev/ttyUSB0', 9600)  # Replace '/dev/ttyACM0' with your Arduino's port
